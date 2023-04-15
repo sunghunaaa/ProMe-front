@@ -1,3 +1,21 @@
+/* users_projectApplication */
+.td_column_check {
+  width: 90px;
+}
+.td_column_id {
+  width: 150px;
+}
+.td_column_email {
+  width: 200px;
+}
+.td_column_tech {
+  width: 250px;
+}
+.td_column_apply {
+  width: auto;
+}
+
+/* users_projectApplication */
 .prj-btn {
   background-color: white;
   border-radius: 0.2rem;

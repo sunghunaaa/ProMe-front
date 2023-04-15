@@ -96,35 +96,30 @@
                     </div>
                     <div class="section height-m800">
                         <div class="m-4" style="height: 100%;">
-                            <div class="pb-3">
-                                <!-- <input class="prj-btn p-1 px-2" type="button" value="수락">
-                                                    <input class="prj-btn p-1 px-2 mx-2" type="button" value="거절"> -->
-                                <button type="button" class="btn btn-outline-dark px-2 py-1">수락</button>
-                                <button type="button" class="btn btn-outline-dark px-2 py-1 mx-2">거절</button>
-                            </div>
-
+                            <!-- 프로젝트 단위 start -->
                             <div style="height: auto; padding:0px 0px 16px 0px;">
+                                <span class="h5" style="font-weight: 600">*프로젝트 이름</span>
                                 <table Style="border:1 solid #cacaca" width="100%">
                                     <tr style="text-align: center;">
-                                        <td align="center" width="66">
+                                        <td align="center" class="td_column_check ">
                                             <input class="mx-4" type="checkbox" id="allcheck">
                                         </td>
-                                        <th width="150">아이디</th>
-                                        <th width="200">이메일</th>
-                                        <th width="250">기술/언어</th>
-                                        <th width="auto">지원사유</th>
+                                        <th class="td_column_id">아이디</th>
+                                        <th class="td_column_email">이메일</th>
+                                        <th class="td_column_tech">기술/언어</th>
+                                        <th class="td_column_apply">지원사유</th>
                                     </tr>
                                 </table>
                                 <hr class="m-0" />
                                 <table width="100%" style="font-weight: 400;">
-                                    <tr style="text-align: center; ">
-                                        <td align="center" width="66">
+                                    <tr style="text-align: center;">
+                                        <td align="center" class="td_column_check ">
                                             <input class="mx-4 check_checkbox" type="checkbox">
                                         </td>
-                                        <td width="150">홍길동</td>
-                                        <td width="200">hong@naver.com</td>
-                                        <td width="250">아이콘,아이콘</td>
-                                        <td width="auto">안녕하세요 ...</td>
+                                        <td class="td_column_id">변성훈</th>
+                                        <td class="td_column_email">qustjdgns@naver.com</th>
+                                        <td class="td_column_tech">한글, 자바</th>
+                                        <td class="td_column_apply">안녕하세요. 저는 ...</th>
                                     </tr>
                                     <tr style="text-align: center;">
                                         <td align="center" width="66">
@@ -154,14 +149,14 @@
                                         <td width="auto">부분
                                         <td>
                                     </tr>
-
-
-
-
                                 </table>
                                 <hr class="m-1" />
+                                <div class="pb-3">
+                                    <button type="button" class="btn btn-outline-dark px-2 py-1">수락</button>
+                                    <button type="button" class="btn btn-outline-dark px-2 py-1 mx-2">거절</button>
+                                </div>
                             </div>
-
+                            <!-- 프로젝트 단위 end -->
                         </div>
                         <div class="m-4 half">
                             <table Style="border:1 solid #cacaca" width="100%">
@@ -194,6 +189,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#allcheck").change(function () {
+                var is_check = $(this).is(":checked");
+                console.log(is_check);
+
+                $(".check_checkbox").prop("checked", is_check);
+            });
+        });
+
+    </script>
 </body>
 
 </html>

@@ -1,3 +1,8 @@
+.content_center {
+  display: flex;
+  align-content: center;
+}
+
 /* users_projectApplication start */
 .td_column_check {
   width: 90px;

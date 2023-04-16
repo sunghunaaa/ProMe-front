@@ -101,15 +101,17 @@
                                     <span class="h5" style="font-weight: 800;">* 이름</span>
                                 </div>
                                 <div>
-                                    <input class="box" type="text">
+                                    <input class="box" placeholder="이름을 입력해주세요." minLength="2" maxLength="10" value=""
+                                        autoComplete="on" type="text">
                                 </div>
                             </div>
                             <div class="p-4">
                                 <div>
                                     <span class="h5" style="font-weight: 800;">* 아이디</span>
                                 </div>
-                                <div>
-                                    <input class="box" type="text">
+                                <div class="content_center">
+                                    <input class="box" placeholder="아이디를 입력해주세요." minLength="2" maxLength="10" value=""
+                                        autoComplete="on" type="text">
                                     <button type="button" class="btn btn-outline-dark mx-3">중복확인</button>
                                 </div>
                             </div>
@@ -153,18 +155,23 @@
                                 <div>
                                     <span class="h5" style="font-weight: 800;">* 이메일</span>
                                 </div>
-                                <div>
+                                <div class="content_center">
                                     <input class="box" type="text">
-                                    @
+                                    <div class="pt-3 px-2">@</div>
                                     <input class="box" type="text">
-                                    <select class="form-select mx-3" style="display:inline; width:10rem;">
-                                        <option>직접입력</option>
-                                        <option>naver.com</option>
-                                        <option>gmail.com</option>
-                                    </select>
-                                    <button type="button" class="btn btn-outline-dark">이메일 인증</button>
+                                    <div class="px-3">
+                                        <select class="form-select" style="display:inline; width:10rem;">
+                                            <option>직접입력</option>
+                                            <option>naver.com</option>
+                                            <option>gmail.com</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="btn btn-outline-dark">이메일 인증</button>
+                                    </div>
                                 </div>
                             </div>
+
                             <div class="p-4">
                                 <span class="h5" style="font-weight: 800;">* 핸드폰 번호</span><br>
                                 <select class="form-select" style="display:inline; width: 8rem;" id="exampleSelect1">
@@ -180,11 +187,13 @@
 
                             <div class="p-4">
                                 <span class="h5" style="font-weight: 800;">* 주소</span><br>
-                                <input class="box" type="password">
-                                <button type="button" class="btn btn-outline-dark mx-3">우편번호 검색</button><br>
-                                <input class="box my-2" style="width:70%" type="password"><br>
+                                <div class="content_center">
+                                    <input class="box" type="password">
+                                    <button type="button" class="btn btn-outline-dark mx-3">우편번호 검색</button><br>
+                                </div>
+                                <input class="box my-2" style="width:70%" type="text"><br>
                                 <span style="font-size: 1.1rem; font-weight: 800;">상세 주소</span><br>
-                                <input class="box my-1" style="width:70%" type="password">
+                                <input class="box my-1" style="width:70%" type="text">
                             </div>
 
                             <div class="p-4">
@@ -347,6 +356,8 @@
                 </div>
             </div>
         </section>
+
+
 
         <!-- Footer-->
         <footer class="py-5 bg-dark">

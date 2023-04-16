@@ -18,7 +18,36 @@
   height: 400px;
 }
 /* users_projectApplication end */
+/* manager_userManageForm start*/
+.td_column_name_manager {
+  width: 50px;
+}
+.td_column_id_manager {
+  width: 100px;
+}
+.td_column_gender_manager {
+  width: 50px;
+}
+.td_column_email_manager {
+  width: 150px;
+}
+.td_column_phone_manager {
+  width: 150px;
+}
+.td_column_address_manager {
+  width: 200px;
+}
+.td_column_subscription_manager {
+  width: 150px;
+}
+.div_height_table_manager {
+  height: auto;
+}
+.td_column_check_manager {
+  width: 30px;
+}
 
+/* manager_userManageForm end*/
 /* project_writeForm start*/
 .project_namebox input {
   width: 100%;

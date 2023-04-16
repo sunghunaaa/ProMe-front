@@ -32,6 +32,33 @@
   font-size: 14px;
   border-radius: 6px !important;
 }
+.project_fieldbox {
+  width: 100%;
+  padding: 12px 10px;
+  border: 1px solid #e3e3e3;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: auto !important;
+  color: #696980;
+  font-size: 14px;
+  border-radius: 6px !important;
+  display: flex;
+}
+.field_radio {
+  padding: 20px;
+  display: flex;
+  align-content: center;
+}
+.txt {
+  padding-left: 8px;
+}
+.project_explain {
+  padding: 12px 10px;
+  border: 1px solid #e3e3e3;
+  width: 100%;
+  border-radius: 6px !important;
+}
 /* project_writeForm end*/
 .prj-btn {
   background-color: white;

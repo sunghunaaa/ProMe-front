@@ -1,4 +1,4 @@
-/* users_projectApplication */
+/* users_projectApplication start */
 .td_column_check {
   width: 90px;
 }
@@ -17,8 +17,22 @@
 .div_height_table {
   height: 400px;
 }
+/* users_projectApplication end */
 
-/* users_projectApplication */
+/* project_writeForm start*/
+.project_namebox input {
+  width: 100%;
+  padding: 12px 10px;
+  border: 1px solid #e3e3e3;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: auto !important;
+  color: #696980;
+  font-size: 14px;
+  border-radius: 6px !important;
+}
+/* project_writeForm end*/
 .prj-btn {
   background-color: white;
   border-radius: 0.2rem;

@@ -1,8 +1,23 @@
 .content_center {
   display: flex;
   align-content: center;
-}
+} /* div 안에 content들 중심 축으로 정렬해줌 */
 
+/* users_writeForm start */
+.email_on {
+  padding: 12px 10px;
+
+  width: 100%;
+  border-radius: 6px !important;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}
+.email_off {
+  display: none;
+}
+/* users_writeForm end */
 /* users_projectApplication start */
 .td_column_check {
   width: 90px;

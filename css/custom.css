@@ -1,3 +1,16 @@
+.icon {
+  width: 93px;
+  height: auto;
+  padding: 5px 0px 5px 0px;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.icon button img:hover {
+  filter: brightness(60%);
+}
+
 .content_center {
   display: flex;
   align-content: center;
@@ -165,18 +178,6 @@ section {
   margin: 0 auto;
   letter-spacing: -0.2px;
   background-color: #ffffff;
-}
-.icon {
-  width: 93px;
-  height: auto;
-  padding: 5px 0px 5px 0px;
-  justify-content: center;
-  text-align: center;
-  font-size: 1rem;
-  font-weight: 600;
-}
-.icon button img:hover {
-  filter: brightness(60%);
 }
 .card-body {
   display: flex;

@@ -58,7 +58,7 @@
 
 .article_Recruitment_Status > .Recruitment_Status_content {
   display: grid;
-  grid-template-columns: 460px 100px 600px;
+  grid-template-columns: 450px 120px 600px;
   align-items: center;
   justify-content: left;
   padding-bottom: 5px;
@@ -67,27 +67,6 @@
 }
 
 /* 프로젝트설명 */
-#second-article {
-  background-color: transparent;
-  display: grid;
-  align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
-  border: 1px solid rgba(127, 127, 127, 0.5);
-  border-radius: 15px;
-  margin-bottom: 50px;
-  margin-left: 20px;
-  padding: 15px;
-  margin-top: 5px;
-}
-
-#second-article > div > #content {
-  padding: 8px;
-  width: 668px;
-  min-height: 800px;
-  border: 1px solid rgba(127, 127, 127, 0.5);
-  border-radius: 15px;
-}
 
 .project_description {
   background-color: transparent;
@@ -95,6 +74,7 @@
   overflow-y: auto;
   white-space: pre-wrap;
   overflow-wrap: break-word;
+  margin-bottom: 0;
 }
 
 /* 리더 정보 */

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Project With Me - Application</title>
+    <title>Project With Me - Manage</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap icons-->
@@ -92,137 +92,88 @@
             <div class="container px-4 px-lg-5 mt-5">
                 <div class="row mb-3">
                     <div class="col pb-2" style="display: flex">
-                        <span class="h2" style="font-weight: bold">프로젝트 지원자 관리</span>
+                        <span class="h2" style="font-weight: bold">회원관리</span>
                     </div>
                     <div class="section height-m800">
-                        <div class="m-4" style="height: 100%;">
+                        <div class="m-4" style="height: auto;">
                             <!-- 동적 처리로 들어와야 할 거에요 ! 프로젝트 생성을 안 했을 경우 없습니다 띄워야 하니... -->
-                            <!-- 프로젝트 단위 start -->
+                            <!-- form start -->
                             <div style="height: auto; padding:0px 0px 16px 0px;">
-                                <span class="h5" style="font-weight: 600">*프로젝트 이름</span>
                                 <table Style="border:1 solid #cacaca" width="100%">
                                     <tr style="text-align: center;">
-                                        <td align="center" class="td_column_check">
+                                        <td align="center" class="td_column_check_manager">
                                             <input class="mx-4" type="checkbox" id="allcheck">
                                         </td>
-                                        <th class="td_column_id">아이디</th>
-                                        <th class="td_column_email">이메일</th>
-                                        <th class="td_column_tech">기술/언어</th>
-                                        <th class="td_column_apply">지원사유</th>
+                                        <th class="td_column_name_manager">이름</th>
+                                        <th class="td_column_id_manager">아이디</th>
+                                        <th class="td_column_gender_manager">성별</th>
+                                        <th class="td_column_email_manager">이메일</th>
+                                        <th class="td_column_phone_manager">휴대폰</th>
+                                        <th class="td_column_address_manager">주소</th>
+                                        <th class="td_column_subscription_manager">가입일</th>
                                     </tr>
                                 </table>
                                 <hr class="m-0" />
-                                <div class="div_height_table">
+                                <div class="div_height_table_manager">
                                     <table width="100%" style="font-weight: 400;">
                                         <tr style="text-align: center;">
-                                            <td align="center" class="td_column_check">
+                                            <td align="center" class="td_column_check_manager">
                                                 <input class="mx-4 check_checkbox" type="checkbox">
                                             </td>
-                                            <td class="td_column_id">변성훈</td>
-                                            <td class="td_column_email">qustjdgns@naver.com</td>
-                                            <td class="td_column_tech">한글, 자바</td>
-                                            <td class="td_column_apply">안녕하세요. 저는 ...</td>
+                                            <td class="td_column_name_manager">이름</td>
+                                            <td class="td_column_id_manager">아이디</td>
+                                            <td class="td_column_gender_manager">성별</td>
+                                            <td class="td_column_email_manager">이메일</td>
+                                            <td class="td_column_phone_manager">휴대폰</td>
+                                            <td class="td_column_address_manager">주소</td>
+                                            <td class="td_column_subscription_manager">가입일</td>
                                         </tr>
                                         <tr style="text-align: center;">
-                                            <td align="center">
+                                            <td align="center" class="td_column_check_manager">
                                                 <input class="mx-4 check_checkbox" type="checkbox">
                                             </td>
-                                            <td>홍길동</td>
-                                            <td>hong@naver.com</td>
-                                            <td>아이콘,아이콘</td>
-                                            <td>안녕하세요 ...</td>
+                                            <td>이름</td>
+                                            <td>아이디</td>
+                                            <td>성별</td>
+                                            <td>이메일</td>
+                                            <td>휴대폰</td>
+                                            <td>주소</td>
+                                            <td>가입일</td>
                                         </tr>
                                         <tr style="text-align: center;">
-                                            <td align="center">
+                                            <td align="center" class="td_column_check_manager">
                                                 <input class="mx-4 check_checkbox" type="checkbox">
                                             </td>
-                                            <td>홍길동</td>
-                                            <td>hong@naver.com</td>
-                                            <td>아이콘,아이콘</td>
-                                            <td>안녕하세요 ...</td>
+                                            <td>이름</td>
+                                            <td>아이디</td>
+                                            <td>성별</td>
+                                            <td>이메일</td>
+                                            <td>휴대폰</td>
+                                            <td>주소</td>
+                                            <td>가입일</td>
                                         </tr>
                                         <tr style="text-align: center;">
-                                            <td align="center">
+                                            <td align="center" class="td_column_check_manager">
                                                 <input class="mx-4 check_checkbox" type="checkbox">
                                             </td>
-                                            <td>동</td>
-                                            <td>적</td>
-                                            <td>처리</td>
-                                            <td>부분</td>
+                                            <td>이름</td>
+                                            <td>아이디</td>
+                                            <td>성별</td>
+                                            <td>이메일</td>
+                                            <td>휴대폰</td>
+                                            <td>주소</td>
+                                            <td>가입일</td>
                                         </tr>
                                     </table>
                                 </div>
-                                <hr class="m-1" />
-                                <div class="pb-3">
-                                    <button type="button" class="btn btn-outline-dark px-2 py-1">수락</button>
-                                    <button type="button" class="btn btn-outline-dark px-2 py-1 mx-2">거절</button>
-
+                                <div>
+                                    <hr class="m-1" />
+                                    <div style="padding-left: 10px; padding-top: 10px;">
+                                        <button type="button" class="btn btn-outline-dark px-2 py-1">탈퇴</button>
+                                    </div>
                                 </div>
                             </div>
-                            <!-- 프로젝트 단위 end -->
-                            <!-- 프로젝트 단위 start -->
-                            <div style="height: auto; padding:0px 0px 16px 0px;">
-                                <span class="h5" style="font-weight: 600">*프로젝트 이름</span>
-                                <table Style="border:1 solid #cacaca" width="100%">
-                                    <tr style="text-align: center;">
-                                        <td align="center" class="td_column_check">
-                                            <input class="mx-4" type="checkbox" id="allcheck1">
-                                        </td>
-                                        <th class="td_column_id">아이디</th>
-                                        <th class="td_column_email">이메일</th>
-                                        <th class="td_column_tech">기술/언어</th>
-                                        <th class="td_column_apply">지원사유</th>
-                                    </tr>
-                                </table>
-                                <hr class="m-0" />
-                                <div class="div_height_table">
-                                    <table width="100%" style="font-weight: 400;">
-                                        <tr style="text-align: center;">
-                                            <td align="center" class="td_column_check">
-                                                <input class="mx-4 check_checkbox1" type="checkbox">
-                                            </td>
-                                            <td class="td_column_id">변성훈</td>
-                                            <td class="td_column_email">qustjdgns@naver.com</td>
-                                            <td class="td_column_tech">한글, 자바</td>
-                                            <td class="td_column_apply">안녕하세요. 저는 ...</td>
-                                        </tr>
-                                        <tr style="text-align: center;">
-                                            <td align="center">
-                                                <input class="mx-4 check_checkbox1" type="checkbox">
-                                            </td>
-                                            <td>홍길동</td>
-                                            <td>hong@naver.com</td>
-                                            <td>아이콘,아이콘</td>
-                                            <td>안녕하세요 ...</td>
-                                        </tr>
-                                        <tr style="text-align: center;">
-                                            <td align="center">
-                                                <input class="mx-4 check_checkbox1" type="checkbox">
-                                            </td>
-                                            <td>홍길동</td>
-                                            <td>hong@naver.com</td>
-                                            <td>아이콘,아이콘</td>
-                                            <td>안녕하세요 ...</td>
-                                        </tr>
-                                        <tr style="text-align: center;">
-                                            <td align="center">
-                                                <input class="mx-4 check_checkbox1" type="checkbox">
-                                            </td>
-                                            <td>동</td>
-                                            <td>적</td>
-                                            <td>처리</td>
-                                            <td>부분</td>
-                                        </tr>
-                                    </table>
-                                </div>
-                                <hr class="m-1" />
-                                <div class="pb-3">
-                                    <button type="button" class="btn btn-outline-dark px-2 py-1">수락</button>
-                                    <button type="button" class="btn btn-outline-dark px-2 py-1 mx-2">거절</button>
-
-                                </div>
-                            </div>
-                            <!-- 프로젝트 단위 end -->
+                            <!-- form end -->
                         </div>
 
                     </div>

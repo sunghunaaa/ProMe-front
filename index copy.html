@@ -15,7 +15,9 @@
   <link href="css/letspl.css" rel="stylesheet" />
   <link href="css/styles.css" rel="stylesheet" />
   <link href="css/custom.css" rel="stylesheet" />
-  <link href="css/modal.css" rel="stylesheet" />
+  <link href="css/custom.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/modal_01_signup.css">
+  <link rel="stylesheet" href="css/modal_02_login.css">
   <!-- <link href="css/custom-styles.css" rel="stylesheet" /> -->
 </head>
 
@@ -42,26 +44,22 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                 aria-expanded="false"></a>
-
-              <div class="dropdown-menu">
-                <div class="dropdown-item">*******님</div>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">마이페이지</a>
-
-                <a class="dropdown-item" href="#">내 모임 지원자 관리</a>
-
-                <a class="dropdown-item" href="#">회원 정보 수정</a>
-                <div class="dropdown-divider"></div>
-              </div>
             </li>
           </ul>
 
           <form class="d-flex dropdown">
             <!-- <input class="form-control me-sm-2" type="search" placeholder="Search" /> -->
-            <button class="btn my-2 my-sm-0" type="button" style="padding-right: 0">
-              <img src="assets\btn-logout.png" />
+            <button class="btn my-2 my-sm-0" id="loginBtn" type="button" style="padding-right: 0">
+              <img src="assets\btn-login.png" />
             </button>
-
+            <!-- <button class="btn my-2 my-sm-0" type="button" style="padding-right: 0">
+                <img src="assets\btn-logout.png" />
+              </button> -->
+            <button class="btn my-2 my-sm-0" type="button" style="padding-right: 0;
+            padding-left: 0;">
+              <img src="assets\btn-create.png" />
+            </button>
+            <!--  
             <button class="btn my-2 my-sm-0 nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false"
               data-bs-toggle="dropdown" style="margin-right: 0.5rem">
               <img src="assets\account-circle.png" />
@@ -76,6 +74,7 @@
               <a class="dropdown-item" href="#">회원 정보 수정</a>
               <div class="dropdown-divider"></div>
             </div>
+            -->
           </form>
         </div>
       </div>
@@ -1112,23 +1111,40 @@
     </footer>
   </div>
 
+  <div class="modalWrapClose_1">
+    <div class="loginModal_1">
+      <p class="modalTit_1">회원 가입하기</p>
+      <button class="closeBtn_1">
+        <img loading="lazy" src="./assets/icon/ic-close.svg" alt="close">
+      </button>
+      <button class="loginBtn_1 naver">네이버 아이디로 가입 </button>
+      <button class="loginBtn_1 kakao">카카오 계정으로 가입</button>
+      <button class="loginBtn_1 facebook">페이스북 계정으로 가입</button>
+      <button class="loginBtn_1 google">구글 계정으로 가입</button>
+      <p class="loginNoticeTxt">소셜 로그인으로 가입 시
+        <a target="_blank" href="/tnc/service_policy">이용약관,&nbsp;</a>
+        <a target="_blank" href="/tnc/privacy_policy">개인정보처리방침,&nbsp;</a>
+        <a target="_blank" href="/tnc/payment_policy"> 전자금융거래약관</a>에 동의함으로 처리됩니다
+      </p>
+      <a class="signupBtn_1">로그인</a>
+    </div>
+  </div>
+
   <div class="modalWrapClose">
     <div class="loginModal" style="padding-bottom: 30px;">
+      <p class="modalTit">로그인</p>
       <button class="closeBtn">
         <img loading="lazy" src="./assets/icon/ic-close.svg" alt="close">
       </button>
       <div><img class="pmelogo" src="./assets/icon/pmelogo.png"></div>
-      <div class="div_center_tit">
-
-      </div>
-      <div class="div_center">
-        <p>* 지원사유</p>
-        <textarea class="div_content"></textarea>
-      </div>
+      *ID
+      <div class="div_center"><input class="div_id" type="text" required="required"></div>
+      *Password
+      <div class="div_center"><input class="div_password" type="password" required="required"></div>
 
 
-      <button type="button" class="btn btn-outline-secondary radious" id="apply">지원 완료</button>
-      <button type="button" class="btn btn-outline-secondary radious applyCancel">취소</button>
+      <button type="button" class="btn btn-outline-secondary radious">로그인</button>
+      <button type="button" class="btn btn-outline-secondary radious">회원가입</button>
 
     </div>
   </div>
@@ -1141,7 +1157,16 @@
   <script type="text/javascript" src="http://code.jquery.com/jquery-3.6.4.min.js"></script>
   <script type="text/javascript">
     // modal
-
+    $("#loginBtn").click(function () {
+      $(".loginModal_1").parent().attr("class", "modalWrapOpen_1");
+    });
+    $(".closeBtn_1").click(function () {
+      $(".loginModal_1").parent().attr("class", "modalWrapClose_1");
+    });
+    $('.signupBtn_1').click(function () {
+      $(".loginModal").parent().attr("class", "modalWrapOpen");
+      $(".loginModal_1").parent().attr("class", "modalWrapClose_1");
+    });
   </script>
 </body>
 

@@ -844,3 +844,415 @@ button:not(:disabled),
 .ps-5 {
   padding-left: 3rem !important;
 }
+
+/* icon checkbox */
+input[id="android"] {
+  display: none;
+}
+input[id="android"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/android_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="android"]:checked + label em {
+  background-position: -50px 0;
+}
+
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="aws"] {
+  display: none;
+}
+input[id="aws"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/aws_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="aws"]:checked + label em {
+  background-position: -50px 0;
+}
+
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="c"] {
+  display: none;
+}
+input[id="c"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/c_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="c"]:checked + label em {
+  background-position: -50px 0;
+}
+
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="docker"] {
+  display: none;
+}
+input[id="docker"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/docker_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="docker"]:checked + label em {
+  background-position: -50px 0;
+}
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="figma"] {
+  display: none;
+}
+input[id="figma"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/figma_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="figma"]:checked + label em {
+  background-position: -50px 0;
+}
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="flutter"] {
+  display: none;
+}
+input[id="flutter"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/flutter_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="flutter"]:checked + label em {
+  background-position: -50px 0;
+}
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="git"] {
+  display: none;
+}
+input[id="git"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/git_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="git"]:checked + label em {
+  background-position: -50px 0;
+}
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="html"] {
+  display: none;
+}
+input[id="html"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/html_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="html"]:checked + label em {
+  background-position: -50px 0;
+}
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="ios"] {
+  display: none;
+}
+input[id="ios"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/ios_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="ios"]:checked + label em {
+  background-position: -50px 0;
+}
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="javascript"] {
+  display: none;
+}
+input[id="javascript"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/javascript_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="javascript"]:checked + label em {
+  background-position: -50px 0;
+}
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="java"] {
+  display: none;
+}
+input[id="java"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/java_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="java"]:checked + label em {
+  background-position: -50px 0;
+}
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="kotlin"] {
+  display: none;
+}
+input[id="kotlin"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/kotlin_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="kotlin"]:checked + label em {
+  background-position: -50px 0;
+}
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="kubernetes"] {
+  display: none;
+}
+input[id="kubernetes"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/kubernetes_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="kubernetes"]:checked + label em {
+  background-position: -50px 0;
+}
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="mongodb"] {
+  display: none;
+}
+input[id="mongodb"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/mongodb_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="mongodb"]:checked + label em {
+  background-position: -50px 0;
+}
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="mysql"] {
+  display: none;
+}
+input[id="mysql"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/mysql_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="mysql"]:checked + label em {
+  background-position: -50px 0;
+}
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="nodejs"] {
+  display: none;
+}
+input[id="nodejs"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/nodejs_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="nodejs"]:checked + label em {
+  background-position: -50px 0;
+}
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="photoshop"] {
+  display: none;
+}
+input[id="photoshop"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/photoshop_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="photoshop"]:checked + label em {
+  background-position: -50px 0;
+}
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="python"] {
+  display: none;
+}
+input[id="python"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/python_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="python"]:checked + label em {
+  background-position: -50px 0;
+}
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="react"] {
+  display: none;
+}
+input[id="react"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/react_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="react"]:checked + label em {
+  background-position: -50px 0;
+}
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="spring"] {
+  display: none;
+}
+input[id="spring"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/spring_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="spring"]:checked + label em {
+  background-position: -50px 0;
+}
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="tensorflow"] {
+  display: none;
+}
+input[id="tensorflow"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/tensorflow_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="tensorflow"]:checked + label em {
+  background-position: -50px 0;
+}
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="typescript"] {
+  display: none;
+}
+input[id="typescript"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/typescript_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="typescript"]:checked + label em {
+  background-position: -50px 0;
+}
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="unity"] {
+  display: none;
+}
+input[id="unity"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/unity_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="unity"]:checked + label em {
+  background-position: -50px 0;
+}
+.icon:hover {
+  filter: brightness(60%);
+}
+
+input[id="vue"] {
+  display: none;
+}
+input[id="vue"] + label em {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url(../assets/icon/vue_check.png) 0 0 no-repeat;
+  vertical-align: middle;
+}
+input[id="vue"]:checked + label em {
+  background-position: -50px 0;
+}
+.icon:hover {
+  filter: brightness(60%);
+}

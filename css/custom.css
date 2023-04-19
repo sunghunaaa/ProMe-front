@@ -14,6 +14,7 @@
 .content_center {
   display: flex;
   align-content: center;
+  align-items: center;
 } /* div 안에 content들 중심 축으로 정렬해줌 */
 
 /* users_writeForm start */
@@ -246,6 +247,15 @@
   border: 1px solid #e3e3e3;
   margin: 15px 0px 15px 15px;
   padding: 16px;
+}
+.techLan_icon {
+  width: 93px;
+  height: auto;
+  padding: 5px 0px 5px 0px;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
 }
 .board_memberDiv {
   grid-column-start: 1;

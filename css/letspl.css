@@ -23,6 +23,7 @@
   bottom: 0;
   padding-bottom: 4px;
 }
+
 .bannerPc .txtBtn a {
   color: #fff;
   font-size: 12px;
@@ -474,7 +475,7 @@
   flex-shrink: 0;
   display: inline-block;
 }
-.loginWrap .loginLogout .hoverMenu  {
+.loginWrap .loginLogout .hoverMenu {
   -moz-box-orient: horizontal;
   -moz-box-direction: normal;
   flex-direction: row;
@@ -2347,6 +2348,32 @@ section.bannerSection2 .bannerWrap {
   .favorite.active:hover {
   background-image: url(../assets/images/ic-favorite-empty-hover.svg);
 }
+
+/*내가 추가한 것 start*/
+.hotProjectContentWrap .hotProjectContent .projectInfo .projectThumb .projectTop .favorite {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  background-image: url(../assets/images/ic-favorite-empty-white.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.hotProjectContentWrap .hotProjectContent .projectInfo .projectThumb .projectTop .favorite:hover {
+  background-image: url(../assets/images/ic-favorite-empty-hover.svg);
+}
+.hotProjectContentWrap .hotProjectContent .projectInfo .projectThumb .projectTop .favorite.active {
+  background-image: url(../assets/images/ic-favorite-full.svg);
+}
+.hotProjectContentWrap
+  .hotProjectContent
+  .projectInfo
+  .projectThumb
+  .projectTop
+  .favorite.active:hover {
+  background-image: url(../assets/images/ic-favorite-empty-hover.svg);
+}
+/*내가 추가한 것 end*/
+
 .hotProjectContentWrap .hotProjectContent .projectInfo .projectTxtInfo {
   position: absolute;
   left: 0;
@@ -10719,9 +10746,9 @@ div.form ul li .textArea textarea {
   height: auto;
 }
 .newProjectTopWrap .txtWrap .right .heartCount span {
-  font-size: 12px;
+  /* font-size: 12px; */
   line-height: 14px;
-  color: #888;
+  color: #888888;
   margin-left: 4px;
 }
 .newProjectTopWrap .txtWrap .right .gatherTxt {
@@ -11310,9 +11337,13 @@ div.form ul li .textArea textarea {
   margin-right: 4px;
 }
 .projectGridWrap .projectInfo2 .middleWrap .left .heartCount span,
+.projectGridWrap .projectInfo2 .middleWrap .right .heartCount span,
 .projectGridWrap .projectInfo2 .middleWrap .right p {
-  font-size: 12px;
-  color: #888;
+  /*내가 추가한 것*/
+  font-size: 0.85rem;
+  line-height: 14px;
+  /* color: #888; */
+  color: #888888;
 }
 .projectGridWrap .projectInfo2 .bottomWrap {
   border-top: 1px solid #f6f6f6;
